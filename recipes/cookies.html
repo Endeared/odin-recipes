@@ -7,10 +7,69 @@
     <title>Document</title>
 </head>
 
+<style>
+
+.content, .ingredients {
+    text-align: center;
+}
+
+#cookie {
+    width: 20%;
+    height: auto;
+    border: 0.2vw solid black;
+    border-radius: 1vw;
+}
+
+#ingred {
+    display: inline-block;
+    text-align: left;
+    list-style: none;
+    padding: 0;
+}
+
+#ingredientsText {
+    text-align: center;
+    font-weight: 900;
+    margin: 0;
+}
+
+#descHead, .ingredients {
+    padding-top: 1%;
+}
+
+.desc {
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+</style>
 
 <body>
 
-    <h1>Chocolate Chip Cookies</h1>
+    <div class="content">
+        <h1 id="title">Chocolate Chip Cookies</h1>
+        <img src="../images/cookie.jpg" alt="cookie :)" id="cookie">
+        <h3 id="descHead">Description</h3>
+        <p class="desc">This recipe is everything you could ask for if you are someone that enjoys chocolate chip cookies. Following this recipe will produce dozens of cookies that have a slightly crispy texture on the outside, covering a much softer and chewy interior</p>
+        <p class="desc">I have personally made this recipe myself many times over. If you feel that you have any potential changes / optional things to add, shoot me an email at <a href="mailto: rosshamey@gmail.com" id="email">rosshamey@gmail.com</a> and I will try it myself!</p>
+    </div>
+
+    <div class="ingredients">
+        <ul id="ingred">
+            <p id="ingredientsText">Ingredients:</p>
+            <li>2 1/4 cups all-purpose flour</li>
+            <li>1 1/2 teaspoon baking soda</li>
+            <li>1/2 teaspoon salt</li>
+            <li>1 1/2 cup butter, softened</li>
+            <li>3/4 cup granulated sugar</li>
+            <li>3/4 cup packed brown sugar</li>
+            <li>2 eggs</li>
+            <li>1 teaspoon vanilla</li>
+            <li>2 cups chocolate chips</li>
+        </ul>
+    </div>
+
 
 </body>
 
